@@ -203,7 +203,13 @@ body {
 	left: 120px;
 }
 
-.navBar .links a {
+.navBar .links-right {
+	display: inline-block;
+	position: absolute;
+	right: 50px;
+}
+
+.navBar .links a, .navBar .links-right a {
 	height: 56px;
 	font-weight: normal;
 	font-size: 20px;
@@ -212,7 +218,7 @@ body {
 	vertical-align: top
 }
 
-.homePage .navBar a[href="/"]:not(.logo),.plansPage .navBar .links a[href="/plans/"],.signUpPage .navBar .links a[href="/signup/"],.navBar .links a[href="/about/"],.aboutPage .navBar .links a[href="/faq/"],.partnerPage .navBar .links a[href="/partner/"],.contactPage .navBar .links a[href="/contact/"] {
+.homePage .navBar a[href="/"]:not(.logo),.plansPage .navBar .links a[href="/plans/"],.signUpPage .navBar .links a[href="/signup/"],.navBar .aboutPage .links a[href="/about/"],.aboutPage .navBar .links a[href="/faq/"],.partnerPage .navBar .links a[href="/partner/"],.contactPage .navBar .links a[href="/contact/"] {
 	border-bottom: 2px solid white
 }
 
@@ -439,6 +445,7 @@ codeblock {
 }
 
 .planName {
+	color: #2c3e50;
 	height: 50px;
 	line-height: 50px;
 	background-color: var(--mainColor-600);
@@ -464,6 +471,7 @@ codeblock {
 }
 
 .planPrice {
+	color: #2c3e50;
 	padding: 6px 0;
 	background-color: var(--mainColor-600);
 	border-radius: 0 0 5px 5px
@@ -476,6 +484,7 @@ codeblock {
 }
 
 .planPrice .button {
+	color: #2c3e50;
 	-webkit-box-shadow: none;
 	box-shadow: none
 }

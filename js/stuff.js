@@ -9,9 +9,7 @@ sideBar.innerHTML =
 				'<h1 style="margin:0;">Spark</h1>\n' +
 				'<a href="/" class="waves-effect waves-light">Home</a>\n' +
 				'<a href="/plans/" class="waves-effect waves-light">Lineup</a>\n' +
-				'<a href="/signup/" class="waves-effect waves-light">Purchase</a>\n' +
 				'<a href="/about/" class="waves-effect waves-light">About Our Company</a>\n' +
-				//'<a href="/faq/" class="waves-effect waves-light">FAQ</a>\n' +
 				'<a href="/contact/" class="waves-effect waves-light">Contact</a>\n' +
 			'</div>\n' +
 			'<div class="sideBarClose" onclick="closeSideBar()"></div>'
@@ -27,12 +25,16 @@ navBar.innerHTML =
 			'<div class="links">\n' +
 				'<a href="/" class="waves-effect waves-light">Home</a>\n' +
 				'<a href="/plans/" class="waves-effect waves-light">Lineup</a>\n' +
-				'<a href="/signup/" class="waves-effect waves-light">Purchase</a>\n' +
 				'<a href="/about/" class="waves-effect waves-light">About Our Company</a>\n' +
 				//'<a href="/faq/" class="waves-effect waves-light">FAQ</a>\n' +
 				'<a href="/blog/" class="waves-effect waves-light">News Updates</a>\n' + 
 				'<a href="/contact/" class="waves-effect waves-light">Contact</a>\n' +
-			'</div>'
+			'</div>'+
+				'<div class="links-right">\n' +
+					'<a href="/about">About This Site</a>\n'+
+					'<a href="">TSA</a>\n'+
+					'<a href="">CTE</a>\n'+
+				'</div>'
 
 /* Footer */
 
