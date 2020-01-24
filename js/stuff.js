@@ -42,7 +42,7 @@ navBar.innerHTML =
 
 /* Footer */
 
-document.querySelector(".footerContainer").innerHTML =
+/* document.querySelector(".footerContainer").innerHTML =
 			"<!-- Don't touch -->\n" +
 			'<div class="footerHelper"></div>\n' +
 			
@@ -66,7 +66,7 @@ document.querySelector(".footerContainer").innerHTML =
 				'</div>\n' +
 										
 			'<p class="copyright">&copy; 2020 Spark Inc.</p>'
-			
+*/
 /* Stuff */
 
 var html = document.querySelector("html"),
