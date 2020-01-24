@@ -13,7 +13,7 @@ sideBar.innerHTML =
 				'<a href="/spark/contact/" class="waves-effect waves-light">Contact</a>\n' +
 			'</div>\n' +
 					'<div class="links-right">\n' +
-					'<a href="/spark/about">About This Site</a>\n'+
+					'<a href="/spark/about-site">About This Site</a>\n'+
 					'<a href="/spark/tsa">TSA</a>\n'+
 					'<a href="/spark/cte">CTE</a>\n'+
 					'</div>'
@@ -35,7 +35,7 @@ navBar.innerHTML =
 				'<a href="/spark/contact/" class="waves-effect waves-light">Contact</a>\n' +
 			'</div>'+
 				'<div class="links-right">\n' +
-					'<a href="/spark/about">About This Site</a>\n'+
+					'<a href="/spark/about-site">About This Site</a>\n'+
 					'<a href="/spark/tsa">TSA</a>\n'+
 					'<a href="/spark/cte">CTE</a>\n'+
 				'</div>'
