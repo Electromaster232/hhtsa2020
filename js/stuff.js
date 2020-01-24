@@ -8,10 +8,15 @@ sideBar.innerHTML =
 			'<div class="sideBar">\n' +
 				'<h1 style="margin:0;">Spark</h1>\n' +
 				'<a href="/spark/" class="waves-effect waves-light">Home</a>\n' +
-				'<a href="/plans/" class="waves-effect waves-light">Lineup</a>\n' +
-				'<a href="/about/" class="waves-effect waves-light">About Our Company</a>\n' +
-				'<a href="/contact/" class="waves-effect waves-light">Contact</a>\n' +
+				'<a href="/spark/lineup/" class="waves-effect waves-light">Lineup</a>\n' +
+				'<a href="/spark/about/" class="waves-effect waves-light">About Our Company</a>\n' +
+				'<a href="/spark/contact/" class="waves-effect waves-light">Contact</a>\n' +
 			'</div>\n' +
+	'<div class="links-right">\n' +
+	'<a href="/spark/about">About This Site</a>\n'+
+	'<a href="/spark/tsa">TSA</a>\n'+
+	'<a href="/spark/cte">CTE</a>\n'+
+	'</div>'
 			'<div class="sideBarClose" onclick="closeSideBar()"></div>'
 			
 /* Navigation Bar */
@@ -24,10 +29,9 @@ navBar.innerHTML =
 			
 			'<div class="links">\n' +
 				'<a href="/spark/" class="waves-effect waves-light">Home</a>\n' +
-				'<a href="/lineup/" class="waves-effect waves-light">Lineup</a>\n' +
+				'<a href="/spark/lineup/" class="waves-effect waves-light">Lineup</a>\n' +
 				'<a href="/about/" class="waves-effect waves-light">About Our Company</a>\n' +
-				//'<a href="/faq/" class="waves-effect waves-light">FAQ</a>\n' +
-				'<a href="/blog/" class="waves-effect waves-light">News Updates</a>\n' + 
+				'<a href="/news/" class="waves-effect waves-light">News Updates</a>\n' +
 				'<a href="/contact/" class="waves-effect waves-light">Contact</a>\n' +
 			'</div>'+
 				'<div class="links-right">\n' +
