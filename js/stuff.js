@@ -12,11 +12,11 @@ sideBar.innerHTML =
 				'<a href="/spark/about/" class="waves-effect waves-light">About Our Company</a>\n' +
 				'<a href="/spark/contact/" class="waves-effect waves-light">Contact</a>\n' +
 			'</div>\n' +
-	'<div class="links-right">\n' +
-	'<a href="/spark/about">About This Site</a>\n'+
-	'<a href="/spark/tsa">TSA</a>\n'+
-	'<a href="/spark/cte">CTE</a>\n'+
-	'</div>'
+					'<div class="links-right">\n' +
+					'<a href="/spark/about">About This Site</a>\n'+
+					'<a href="/spark/tsa">TSA</a>\n'+
+					'<a href="/spark/cte">CTE</a>\n'+
+					'</div>'
 			'<div class="sideBarClose" onclick="closeSideBar()"></div>'
 			
 /* Navigation Bar */
@@ -30,14 +30,14 @@ navBar.innerHTML =
 			'<div class="links">\n' +
 				'<a href="/spark/" class="waves-effect waves-light">Home</a>\n' +
 				'<a href="/spark/lineup/" class="waves-effect waves-light">Lineup</a>\n' +
-				'<a href="/about/" class="waves-effect waves-light">About Our Company</a>\n' +
-				'<a href="/news/" class="waves-effect waves-light">News Updates</a>\n' +
-				'<a href="/contact/" class="waves-effect waves-light">Contact</a>\n' +
+				'<a href="/spark/about/" class="waves-effect waves-light">About Our Company</a>\n' +
+				'<a href="/spark/news/" class="waves-effect waves-light">News Updates</a>\n' +
+				'<a href="/spark/contact/" class="waves-effect waves-light">Contact</a>\n' +
 			'</div>'+
 				'<div class="links-right">\n' +
-					'<a href="/about">About This Site</a>\n'+
-					'<a href="/tsa">TSA</a>\n'+
-					'<a href="/cte">CTE</a>\n'+
+					'<a href="/spark/about">About This Site</a>\n'+
+					'<a href="/spark/tsa">TSA</a>\n'+
+					'<a href="/spark/cte">CTE</a>\n'+
 				'</div>'
 
 /* Footer */
