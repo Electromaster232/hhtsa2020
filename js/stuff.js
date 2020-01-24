@@ -12,7 +12,7 @@ sideBar.innerHTML =
 				'<a href="/signup/" class="waves-effect waves-light">Purchase</a>\n' +
 				'<a href="/about/" class="waves-effect waves-light">About Our Company</a>\n' +
 				//'<a href="/faq/" class="waves-effect waves-light">FAQ</a>\n' +
-				'<a href="https://support.theendlessweb.com/" class="waves-effect waves-light">Support</a>\n' +
+				'<a href="/contact/" class="waves-effect waves-light">Contact</a>\n' +
 			'</div>\n' +
 			'<div class="sideBarClose" onclick="closeSideBar()"></div>'
 			
@@ -31,7 +31,7 @@ navBar.innerHTML =
 				'<a href="/about/" class="waves-effect waves-light">About Our Company</a>\n' +
 				//'<a href="/faq/" class="waves-effect waves-light">FAQ</a>\n' +
 				'<a href="/blog/" class="waves-effect waves-light">News Updates</a>\n' + 
-				'<a href="https://support.theendlessweb.com/" class="waves-effect waves-light">Support</a>\n' +
+				'<a href="/contact/" class="waves-effect waves-light">Contact</a>\n' +
 			'</div>'
 
 /* Footer */
