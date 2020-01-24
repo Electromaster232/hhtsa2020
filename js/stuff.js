@@ -14,7 +14,7 @@ sideBar.innerHTML =
 			'</div>\n' +
 					'<div class="links-right">\n' +
 					'<a href="/about-site">About This Site</a>\n'+
-					'<a href="/tsa">TSA</a>\n'+
+					'<a href="index.html">TSA</a>\n'+
 					'<a href="/cte">CTE</a>\n'+
 					'</div>'
 			'<div class="sideBarClose" onclick="closeSideBar()"></div>'
@@ -36,7 +36,7 @@ navBar.innerHTML =
 			'</div>'+
 				'<div class="links-right">\n' +
 					'<a href="/about-site">About This Site</a>\n'+
-					'<a href="/tsa">TSA</a>\n'+
+					'<a href="index.html">TSA</a>\n'+
 					'<a href="/cte">CTE</a>\n'+
 				'</div>'
 
