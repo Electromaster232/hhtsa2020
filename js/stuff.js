@@ -12,11 +12,11 @@ sideBar.innerHTML =
 				'<a href="/spark/about/" class="waves-effect waves-light">About Our Company</a>\n' +
 				'<a href="/spark/contact/" class="waves-effect waves-light">Contact</a>\n' +
 			'</div>\n' +
-					'<div class="links-right">\n' +
-					'<a href="/about-site">About This Site</a>\n'+
-					'<a href="http://hhtsa.endl.site/">TSA</a>\n'+
-					'<a href="/cte">CTE</a>\n'+
-					'</div>'
+	'<div class="links-right">\n' +
+	'<a href="/about-site">About This Site</a>\n'+
+	'<a href="https://hhtsa.endl.site/">TSA</a>\n'+
+	'<a href="/cte">CTE</a>\n'+
+	'</div>'
 			'<div class="sideBarClose" onclick="closeSideBar()"></div>'
 			
 /* Navigation Bar */
@@ -36,7 +36,7 @@ navBar.innerHTML =
 			'</div>'+
 				'<div class="links-right">\n' +
 					'<a href="/about-site">About This Site</a>\n'+
-					'<a href="index.html">TSA</a>\n'+
+					'<a href="https://hhtsa.endl.site/">TSA</a>\n'+
 					'<a href="/cte">CTE</a>\n'+
 				'</div>'
 
