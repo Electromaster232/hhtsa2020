@@ -1,8 +1,3 @@
-/*
-
-	Made by Alexander Bl
-
-*/
 
 var preloader = document.querySelector("#preloader")
 
