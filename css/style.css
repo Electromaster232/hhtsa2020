@@ -218,7 +218,7 @@ body {
 	vertical-align: top
 }
 
-.homePage .navBar a[href="/spark/"]:not(.logo),.plansPage .navBar .links a[href="/spark/lineup/"],.signUpPage .navBar .links a[href="/signup/"],.navBar .aboutPage .links a[href="/spark/about/"],.faqPage .navBar .links a[href="/spark/news"],.partnerPage .navBar .links a[href="/partner/"],.contactPage .navBar .links a[href="/contact/"] {
+.homePage .navBar a[href="/spark/"]:not(.logo),.plansPage .navBar .links a[href="/spark/lineup/"],.signUpPage .navBar .links a[href="/signup/"],.aboutPage .navBar .links a[href="/spark/about/"], .newsPage .navBar .links a[href="/spark/news/"],.partnerPage .navBar .links a[href="/partner/"],.contactPage .navBar .links a[href="/contact/"] {
 	border-bottom: 2px solid white
 }
 
