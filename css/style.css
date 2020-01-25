@@ -385,6 +385,22 @@ codeblock {
 	text-align: center
 }
 
+.blogContainer {
+	padding: 16px;
+	text-align: left;
+	margin-left: 80px;
+}
+
+.blogContainer .blog-post .blog-post-author {
+	font-size: 15px !important;
+	font-weight: 200 !important;
+	font-style: italic;
+}
+
+.blogContainer .blog-post .blog-post-content {
+	font-size: 20px;
+}
+
 .about .eh {
 	color: var(--mainColor-600);
 	font-size: 32px;
