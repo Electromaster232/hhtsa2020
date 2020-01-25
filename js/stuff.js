@@ -25,7 +25,7 @@ navBar.innerHTML =
 			'<div class="menu waves-effect waves-circle waves-light" onclick="openSideBar()">\n' +
 				'<i class="eh eh-menu"></i>\n' +
 			'</div>\n' +
-			'<a href="/" class="logo">Spark</a>\n' +
+			'<a href="/spark" class="logo">Spark</a>\n' +
 			
 			'<div class="links">\n' +
 				'<a href="/spark/" class="waves-effect waves-light">Home</a>\n' +
