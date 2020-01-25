@@ -669,7 +669,28 @@ small {
 	border-bottom: 1px solid #757575
 }
 
+.textField textarea {
+	background-color: transparent;
+	color: #C5C5C5;
+	font-family: Roboto;
+	font-size: 16px;
+	caret-color: var(--mainColor-500);
+	padding: 20px 12px 6px;
+	display: block;
+	width: 100%;
+	height: 56px;
+	border: none;
+	border-bottom: 1px solid #757575
+}
+
 .textField input:-webkit-autofill,.textField input:-webkit-autofill:hover,.textField input:-webkit-autofill:focus {
+	box-shadow: inset 0px 0 0px 50px #161616;
+	color: white !important;
+	-webkit-text-fill-color: #C5C5C5;
+	transition: background-color 5000s ease-in-out 0s;
+}
+
+.textField textarea:-webkit-autofill,.textField textarea:-webkit-autofill:hover,.textField textarea:-webkit-autofill:focus {
 	box-shadow: inset 0px 0 0px 50px #161616;
 	color: white !important;
 	-webkit-text-fill-color: #C5C5C5;
@@ -678,6 +699,10 @@ small {
 
 .textField input[name="username"] {
 	text-transform: lowercase;
+}
+
+.textField textarea[name="message"] {
+	height: 100px;
 }
 
 .textField input[required]:invalid:not(.default) {
